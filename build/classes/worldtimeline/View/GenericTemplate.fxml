@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import java.net.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.stage.Screen?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import java.net.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.stage.Screen?>
+<?import javafx.scene.chart.*?>
+
+
+
+<ScrollPane fx:id="scrollPane" maxHeight="500" maxWidth="925" xmlns:fx="http://javafx.com/fxml/1" fx:controller="worldtimeline.Controller.GenericTemplateController">
+    
+    <stylesheets>
+        <URL value="@pageStyle.css" />
+    </stylesheets>
+    
+    <content>
+        <HBox HBox.hgrow="ALWAYS" maxWidth="850">
+            <VBox VBox.vgrow="ALWAYS" fx:id="imageVBox">
+            </VBox>
+            <VBox styleClass="textVBox" fx:id="labelVBox">
+                <Label fx:id="title" styleClass="titleText">
+                    
+                </Label>
+            </VBox>
+        </HBox>
+    </content>
+</ScrollPane>
+
+

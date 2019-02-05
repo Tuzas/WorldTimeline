@@ -1,0 +1,122 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 11, 2018, 6:32:34 PM
+    Author     : Alex
+*/
+
+#imagePane {
+        -fx-background-image: url("worldmap.jpg"); 
+        -fx-background-size: 1280 635;
+        -fx-background-position: center center;
+        -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+.header {
+    -fx-font: 15px normal;
+    -fx-text-alignment: center;
+}
+
+#buttonNotClicked {
+    -fx-background-radius: 5em;  
+    -fx-min-width: 10px;  
+    -fx-min-height: 10px;  
+    -fx-max-width: 10px;  
+    -fx-max-height: 10px;
+}
+
+#buttonClicked {
+    -fx-background-radius: 5em;  
+    -fx-min-width: 10px;  
+    -fx-min-height: 10px;  
+    -fx-max-width: 10px;  
+    -fx-max-height: 10px;
+    -fx-border-color: black;
+}
+
+.corsairButton {
+    -fx-background-radius: 5em;  
+    -fx-min-width: 10px;  
+    -fx-min-height: 10px;  
+    -fx-max-width: 10px;  
+    -fx-max-height: 10px;
+    -fx-background-color: #00FF00;
+}
+
+.chinesePirateButton {
+    -fx-background-radius: 5em;  
+    -fx-min-width: 10px;  
+    -fx-min-height: 10px;  
+    -fx-max-width: 10px;  
+    -fx-max-height: 10px;
+    -fx-background-color: #FF0000;
+}
+
+.pirateRadioButton {
+    -fx-background-radius: 5em;  
+    -fx-min-width: 10px;  
+    -fx-min-height: 10px;  
+    -fx-max-width: 10px;  
+    -fx-max-height: 10px;
+    -fx-background-color: #0000FF;
+}
+
+.wreckingLawButton {
+    -fx-background-radius: 5em;  
+    -fx-min-width: 10px;  
+    -fx-min-height: 10px;  
+    -fx-max-width: 10px;  
+    -fx-max-height: 10px;
+    -fx-background-color: #FF00FF;
+}
+
+.westernPiratesButton {
+    -fx-background-radius: 5em;  
+    -fx-min-width: 10px;  
+    -fx-min-height: 10px;  
+    -fx-max-width: 10px;  
+    -fx-max-height: 10px;
+    -fx-background-color: #FF8000;
+}
+
+.somaliPirateButton {
+    -fx-background-radius: 5em;  
+    -fx-min-width: 10px;  
+    -fx-min-height: 10px;  
+    -fx-max-width: 10px;  
+    -fx-max-height: 10px;
+    -fx-background-color: #8A3DBD;
+}
+
+.bodySnatchingButton {
+    -fx-background-radius: 5em;  
+    -fx-min-width: 10px;  
+    -fx-min-height: 10px;  
+    -fx-max-width: 10px;  
+    -fx-max-height: 10px;
+    -fx-background-color: #000000;
+}
+
+.highwayMenButton {
+    -fx-background-radius: 5em;  
+    -fx-min-width: 10px;  
+    -fx-min-height: 10px;  
+    -fx-max-width: 10px;  
+    -fx-max-height: 10px;
+    -fx-background-color: #336600;
+}
+
+.bodyStyle{
+    -fx-border-color:black; 
+    -fx-border-width: .5; 
+    -fx-border-style: solid;
+    -fx-padding: 5px;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+    -fx-background-color: #e8e8e8;
+}
+
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import java.net.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.stage.Screen?>
+<?import javafx.scene.chart.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<ScrollPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="worldtimeline.Controller.MapController">
+    <VBox>
+    <stylesheets>
+        <URL value="@mapStyle.css" />
+    </stylesheets>
+    
+    <AnchorPane fx:id="imagePane" prefHeight="635" prefWidth="1280">
+        
+    </AnchorPane>
+
+    <VBox prefHeight="200" prefWidth="1280" alignment="center">
+        <Label alignment = "center" styleClass="header">Years</Label>
+        <Slider fx:id = "yearsSlider" blockIncrement="25"  majorTickUnit="25" minorTickCount="0" max="2000" min="1200" 
+                showTickLabels = "true" showTickMarks="true" maxWidth="1000"/>
+        <HBox alignment = "center">
+            <Label styleClass="header">Current Date Range:</Label>
+            <TextField minWidth="100" maxWidth="100" fx:id="currentDateRange" editable="false"></TextField>
+        </HBox>
+            <Label alignment="center" styleClass="header">Color Key</Label>
+            <HBox alignment = "center" styleClass="bodyStyle">
+                <Region HBox.hgrow="ALWAYS" />
+                <Label>Corsairs:</Label>
+                <Button styleClass="corsairButton"></Button>
+                <Region HBox.hgrow="ALWAYS" />
+                <Label>Chinese Pirates:</Label>
+                <Button styleClass="chinesePirateButton"></Button>
+                <Region HBox.hgrow="ALWAYS" />
+                <Label>Western Pirates:</Label>
+                <Button styleClass="westernPiratesButton"></Button>
+                <Region HBox.hgrow="ALWAYS" />
+                <Label>Wrecking Law:</Label>
+                <Button styleClass="wreckingLawButton"></Button>
+                <Region HBox.hgrow="ALWAYS" />
+                <Label>Pirate Radio:</Label>
+                <Button styleClass="pirateRadioButton"></Button>
+                <Region HBox.hgrow="ALWAYS" />
+                <Label>Body Snatching:</Label>
+                <Button styleClass="bodySnatchingButton"></Button>
+                <Region HBox.hgrow="ALWAYS" />
+                <Label>Highway Men:</Label>
+                <Button styleClass="highwayMenButton"></Button>
+                <Region HBox.hgrow="ALWAYS" />
+                <Label>Somali Pirates:</Label>
+                <Button styleClass="somaliPirateButton"></Button>
+                <Region HBox.hgrow="ALWAYS" />
+            </HBox>
+    </VBox>
+    </VBox>
+</ScrollPane>
+
+
